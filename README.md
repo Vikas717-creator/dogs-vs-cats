@@ -35,38 +35,58 @@ dataset/
 To predict a custom image:
 
 python cats_vs_dogs_cnn.py --mode predict --image images/my_dog.jpg
+
 Output:
+
 Image: images/my_dog.jpg  
+
 Prediction: 🐶 Dog
 
 ## 📦 Dependencies
 The project requires the following Python packages:
 tensorflow
+
 numpy
+
 matplotlib
+
 Pillow
 
 ## 🧠 Model Architecture
 A simple CNN model:
 
 Input: 150x150 RGB image
+
 Conv2D → MaxPooling
+
 Conv2D → MaxPooling
+
 Conv2D → MaxPooling
+
 Flatten → Dense → Output
+
 Final layer uses sigmoid activation for binary classification.
 
 ## 📊 Example Output
 Epoch 1/10
+
 Train Accuracy: 93.21%
+
 Validation Accuracy: 91.45%
+
 Model saved at model/cat_dog_model.h5
 
 ## 🔮 Future Enhancements
+
 🔁 Implement data augmentation
+
 🧠 Use pre-trained models like VGG16 or ResNet
+
 🖼️ Add real-time webcam predictions
+
 🌐 Deploy as a Streamlit or Flask app
+
 📱 Convert model to TensorFlow Lite for mobile apps
+
 📈 Track metrics using TensorBoard
 
