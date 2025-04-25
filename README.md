@@ -36,7 +36,7 @@ To predict a custom image:
 
 python cats_vs_dogs_cnn.py --mode predict --image images/my_dog.jpg
 
-Output:
+**Output:**
 
 Image: images/my_dog.jpg  
 
